@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Page</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your external CSS file -->
+</head>
+<body>
+    <h1>Quiz</h1>
+
+    <!-- Question 1 -->
+    <div id="question1" class="question-container active">
+        <p>WHO IS THE TECHNICAL HEAD OF TRESSURE HUNT?</p>
+        <input type="text" id="answer1" placeholder="Your answer">
+        <button onclick="checkAnswer(1)">Submit</button>
+        <p id="error1">Incorrect, try again.</p>
+        <div id="image1" style="display: none;">
+            <img src="" alt="Image for question 1">
+        </div>
+    </div>
+
+    <!-- Question 2 -->
+    <div id="question2" class="question-container">
+        <p>WHAT IS JOEL'S FATHER'S NAME?</p>
+        <input type="text" id="answer2" placeholder="Your answer">
+        <button onclick="checkAnswer(2)">Submit</button>
+        <p id="error2">Incorrect, try again.</p>
+        <div id="image2" style="display: none;">
+            <img src="JOEL.jpg" alt="Image for question 2">
+        </div>
+    </div>
+
+    <!-- Question 3 -->
+    <div id="question3" class="question-container">
+        <p>WHAT IS THE MAIN SKILL OF JANZ?</p>
+        <input type="text" id="answer3" placeholder="Your answer">
+        <button onclick="checkAnswer(3)">Submit</button>
+        <p id="error3">Incorrect, try again.</p>
+        <div id="image3" style="display: none;">
+            <img src="JANZ.jpg" alt="Image for question 3">
+        </div>
+    </div>
+
+    <!-- Question 4 -->
+    <div id="question4" class="question-container">
+        <p>WHO IS THE MAIN PULLI OF TRESSURE HUNT?</p>
+        <input type="text" id="answer4" placeholder="Your answer">
+        <button onclick="checkAnswer(4)">Submit</button>
+        <p id="error4">Incorrect, try again.</p>
+        <div id="image4" style="display: none;">
+            <img src="RIZWAN.jpg" alt="Image for question 4">
+        </div>
+    </div>
+
+    <script src="script.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>
